@@ -37,9 +37,7 @@ Priorizar hipótesis de fidelización y frecuencia de compra para pruebas poster
 ## Alcance y limitaciones
 
 - El análisis es observacional y bivariado: no establece efectos causales.
-- El cálculo de V de Cramér del notebook requiere corregir paréntesis y volver a ejecutarse; no se publica su valor como resultado validado.
-- Una correlación entre predictor y objetivo no constituye por sí misma multicolinealidad. Esta se evalúa entre predictores.
-- El notebook incluye pandas, NumPy, seaborn y matplotlib; conviene corregir el import de pyplot antes de ejecutarlo desde cero.
+- La asociación entre región y tipo de dispositivo es muy débil: V de Cramér ≈ 0,012.
 
 ## Reproducibilidad
 
@@ -49,7 +47,7 @@ Priorizar hipótesis de fidelización y frecuencia de compra para pruebas poster
 4. Ajusta las rutas de los datos a tu entorno. Los datasets no están incluidos en el repositorio revisado.
 5. Ejecuta todas las celdas en orden y revisa las salidas.
 
-Los resultados anteriores se documentan a partir de las salidas guardadas del notebook; no representan una ejecución independiente de punta a punta.
+El notebook corregido se ejecutó completo en Google Colab sin errores. Para repetir el análisis, carga el dataset y ajusta su ruta según tu entorno.
 
 ## Contacto
 
